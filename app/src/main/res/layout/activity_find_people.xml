@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindPeople">
+
+    <include
+        android:id="@+id/findfriends_bar"
+        layout="@layout/appbar">
+    </include>
+
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/findfriends_bar">
+        
+        <TextView
+            android:id="@+id/TextIDfind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="20dp"
+            android:text="Search for People and Friends"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/searchbox"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/TextIDfind"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:hint="Enter to search here.. "
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorPrimaryDark"/>
+        
+        <ImageButton
+            android:id="@+id/search_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/TextIDfind"
+            android:layout_toEndOf="@+id/searchbox"
+            android:src="@drawable/search"
+            android:background="@color/common_google_signin_btn_text_dark_default"/>
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_results"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/myLayout"
+        android:layout_margin="10dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

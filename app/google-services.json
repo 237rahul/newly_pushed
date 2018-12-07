@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "773275176545",
+    "firebase_url": "https://myapplication-3c55d.firebaseio.com",
+    "project_id": "myapplication-3c55d",
+    "storage_bucket": "myapplication-3c55d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773275176545:android:cb558dfc9d96f786",
+        "android_client_info": {
+          "package_name": "com.example.pavani.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773275176545-tjo815r96ve07t1mng7kcj571ajsib0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pavani.myapplication",
+            "certificate_hash": "8315442a5cfb4d7c095f32c5e53c9e4da1af628c"
+          }
+        },
+        {
+          "client_id": "773275176545-suh9tf5c0kjotdfuo5bq3qbl943mruvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pavani.myapplication",
+            "certificate_hash": "8b48be7a6a41538785482ec03a2c99335e5c1ef1"
+          }
+        },
+        {
+          "client_id": "773275176545-j7v2hpt3do3fhc53321gvq5cg9j568e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOeddF_W_UyzUNcdpekg5kbus89VyYLe8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773275176545-j7v2hpt3do3fhc53321gvq5cg9j568e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
